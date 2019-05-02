@@ -1,0 +1,43 @@
+.mainPage {
+    width: 100vw;
+    height: 500vh;
+    background-color: #1d1d1d;
+    .remoteController {
+        position: fixed;
+        right: 1.5em;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 1em;
+        height: 8.2em;
+        .circle {
+            width: 1em;
+            height: 1em;
+            border-radius: 50%;
+            background-color: #e2e2e2;
+            margin-top: 0.8em;
+        }
+        .c1 {
+            margin-top: 0;
+            background-color: lightslategray;
+        }
+    }
+    #page1, #page2, #page3, #page4, #page5 {
+        width: 100vw;
+        height: 100vh;
+        color:#fff;
+    }
+    #page1 {    
+        .blockImg {
+            width: 100vh;
+            height: 100vh;
+            margin:auto;
+            background-image: url('../../../assets/block.jpg');
+            background-repeat: no-repeat;
+            background-size: contain;
+        }   
+    }
+}
+body::-webkit-scrollbar { 
+    display: none; 
+}
