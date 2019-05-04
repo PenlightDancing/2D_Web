@@ -2,40 +2,36 @@
     width: 100vw;
     height: 500vh;
     background-color: #1d1d1d;
-    .remoteController {
-        position: fixed;
-        right: 1.5em;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        width: 1em;
-        height: 8.2em;
-        .circle {
-            width: 1em;
-            height: 1em;
-            border-radius: 50%;
-            background-color: #e2e2e2;
-            margin-top: 0.8em;
-        }
-        .c1 {
-            margin-top: 0;
-            background-color: lightslategray;
-        }
-    }
     #page1, #page2, #page3, #page4, #page5 {
         width: 100vw;
         height: 100vh;
         color:#fff;
     }
-    #page1 {    
+    #page1 {
+        position: relative;
         .blockImg {
-            width: 100vh;
+            width: 100vw;
             height: 100vh;
             margin:auto;
-            background-image: url('../../../assets/block.jpg');
-            background-repeat: no-repeat;
+            background-image: url('../../../assets/back.jpg');
+            background-repeat: repeat;
             background-size: contain;
-        }   
+            opacity: 0.01;
+            z-index: 1;
+        }
+        .logo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            width: 60em;
+            height: 60em;
+            background-image: url('../../../assets/logo.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
     }
 }
 body::-webkit-scrollbar { 
