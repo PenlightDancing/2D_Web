@@ -9,19 +9,28 @@
         color:#fff;
     }
     .p1{    
-        .logo {
+        .logosize {
             position: absolute;
             top: 0;
             left: 0;
             right: 0;
             bottom: 0;
             margin: auto;
-            width: 65em;
-            height: 65em;
-            top: 3em;
-            background-image: url('../../../assets/logo.png');
-            background-size: contain;
-            background-repeat: no-repeat;
+            height: 50%;
+            width: auto;
+            .logo {
+                position: absolute;
+                height: 100%;
+                width: 40%;
+                top: 0;
+                right: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                background-image: url('../../../assets/logo2.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
         }
         .moreon {
             position: absolute;
@@ -29,13 +38,14 @@
             left: 0;
             right: 0;
             margin:auto;
-            top: 44.5em;
+            top: 70%;
             .more {
+                position: relative;
                 width: 100%;
                 height: 2em;
                 .line1, .line2 {
                     position: absolute;
-                    width: 3em;
+                    width: 3.5em;
                     height: .1em;
                     background-color: #fff;
                     top: 0;
@@ -58,6 +68,45 @@
                     text-align: center;
                     font-size: 1.5em;
                     letter-spacing: 0.05em;
+                }
+            }
+            .icons {
+                display: flex;
+                margin-top: 1.5em;
+                position: relative;
+                .inicons {
+                    position: absolute;
+                    width: 4em;
+                    height: 4em;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                .steam {
+                    left: 3.5em;
+                    background-image: url('../../../assets/steam_93621.svg');
+                }
+                .backwhite {
+                    position: absolute;
+                    width: 2em;
+                    height: 2em;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    top: 1em;
+                    background-color: #fff;
+                }
+                .youtube {
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    background-image: url('../../../assets/Youtube_icon-icons.com_66802.svg');
+                }
+                .facebook {
+                    right: 3.65em;
+                    top: 0.25em;
+                    width: 3.2em;
+                    height: 3.2em;
+                    background-image: url('../../../assets/facebook_icon-icons.com_53612.svg');
                 }
             }
         }

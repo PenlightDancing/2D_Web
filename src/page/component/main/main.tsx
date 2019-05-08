@@ -44,12 +44,22 @@ export const Main = () => {
 const Page1 = () => {
     return (
         <div className = "p1">
-            <div className = "logo"></div>
+            <div className = "logosize">
+                <div className = "logo">
+
+                </div>
+            </div>
             <div className = "moreon">
                 <div className = "more">
                     <div className = "line1"></div>
                     <div className = "text">More On</div>
                     <div className = "line2"></div>
+                </div>
+                <div className = "icons">
+                    <div className = "inicons steam"></div>
+                    <div className = "backwhite"></div>
+                    <div className = "inicons youtube"></div>
+                    <div className = "inicons facebook"></div>
                 </div>
             </div>
         </div>
