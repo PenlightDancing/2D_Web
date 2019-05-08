@@ -1,14 +1,15 @@
 .mainPage {
     width: 100vw;
-    height: 500vh;
+    height: 600vh;
     background-color: #1d1d1d;
-    #page1, #page2, #page3, #page4, #page5 {
+    #divpage1, #divpage2, #divpage3, #divpage4, #divpage5, #divpage6 {
         width: 100vw;
         height: 100vh;
         color:#fff;
     }
-    #page1 {
+    #divpage1 {
         position: relative;
+        background-color: #fff;
         .logo {
             position: absolute;
             top: 0;
@@ -23,6 +24,15 @@
             background-size: contain;
             background-repeat: no-repeat;
         }
+    }
+    #page2, #page3, #page4, #page5, #page6 {
+        position: absolute;
+        width: 1em;
+        height: 1em;
+        top: -5em;
+    }
+    #divpage2 {
+        position: relative;
     }
 }
 body::-webkit-scrollbar { 

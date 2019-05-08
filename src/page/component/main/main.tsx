@@ -14,13 +14,16 @@ export const Main = () => {
     return (
         <div className = "mainPage">
             <TopBar/>
-            <div id = "page1">
+            <div id = "divpage1">
                 <div className = "logo"></div>
             </div>
-            <div id = "page2">p2</div>
-            <div id = "page3">p3</div>
-            <div id = "page4">p4</div>
-            <div id = "page5">p5</div>
+            <div id = "divpage2">
+                <div id = "page2"></div>
+            </div>
+            <div id = "divpage3">team</div>
+            <div id = "divpage4">news</div>
+            <div id = "divpage5">contact</div>
+            <div id = "divpage6">yackGwan</div>
         </div>
     )
 }
