@@ -45,9 +45,17 @@ const Page1 = () => {
     return (
         <div className = "p1">
             <div className = "logo"></div>
+            <div className = "moreon">
+                <div className = "more">
+                    <div className = "line1"></div>
+                    <div className = "text">More On</div>
+                    <div className = "line2"></div>
+                </div>
+            </div>
         </div>
     )
 }
+
 const Page2 = () => {
     return (
         <div className = "p2">
