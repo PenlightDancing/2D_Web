@@ -125,6 +125,17 @@ const Page4 = () => {
             <p className = "title">NEWS</p>
             <hr className = "titleLine"/>
             <p className = "introduce">누구보다 빠르게 Penlight Dancing의 새소식을 접해보세요.</p>
+            <div className = "content">
+                <div className = "newsList">
+                    <hr className = "ulLine"/>
+                    <ul className = "list">
+
+                    </ul>
+                    <hr className = "ulLine"/>
+                </div>
+                <div className = "video"></div>
+            </div>
+        
         </div>
     )
 }
