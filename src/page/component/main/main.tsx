@@ -84,6 +84,38 @@ const Page3 = () => {
             <p className = "title">TEAM. SeChiGoGi</p>
             <hr className = "titleLine"/>
             <p className = "introduce">Penlight Dancing를 제작한 팀원입니다.</p>
+            <div className = "teamMate">
+                <div className = "n1 line1">
+                    <p className = "name"></p>
+                    <div className = "profile"></div>
+                    <p className = "job"></p>
+                    <p className = "ability"></p>
+                </div>
+                <div className = "n2 line2">
+                    <p className = "name"></p>
+                    <div className = "profile"></div>
+                    <p className = "job"></p>
+                    <p className = "ability"></p>
+                </div>
+                <div className = "n3 line1">
+                    <p className = "name"></p>
+                    <div className = "profile"></div>
+                    <p className = "job"></p>
+                    <p className = "ability"></p>
+                </div>
+                <div className = "n4 line2">
+                    <p className = "name"></p>
+                    <div className = "profile"></div>
+                    <p className = "job"></p>
+                    <p className = "ability"></p>
+                </div>
+                <div className = "n5 line1">
+                    <p className = "name"></p>
+                    <div className = "profile"></div>
+                    <p className = "job"></p>
+                    <p className = "ability"></p>
+                </div>
+            </div>
         </div>
     )
 }
