@@ -59,7 +59,7 @@ const Page1 = () => {
                     <div className = "inicons steam"></div>
                     <div className = "backwhite"></div>
                     <div className = "inicons youtube"></div>
-                    <div className = "inicons facebook"></div>
+                    <a href = "https://www.facebook.com/PenlightDancing/"><div className = "inicons facebook"></div></a>
                 </div>
             </div>
         </div>
