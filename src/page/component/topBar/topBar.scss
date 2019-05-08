@@ -6,10 +6,16 @@
     z-index: 99999;
     box-shadow: 0px .1px 4px darkgray;
     ul {
+        position: absolute;
+        right: 10em;
         display: flex;
         list-style: none;
         li {
+            line-height: 4.96em;
+            margin-left: 4em;
             color: #fff;
+            font-size: 1.02em;
+            font-weight: 100;
         }
     }
 }
