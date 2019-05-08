@@ -129,11 +129,14 @@ const Page4 = () => {
                 <div className = "newsList">
                     <hr className = "ulLine"/>
                     <ul className = "list">
-
+                        <li>asdasd</li>
+                        <li>asdasd</li>
                     </ul>
                     <hr className = "ulLine"/>
                 </div>
-                <div className = "video"></div>
+                <div className = "video">
+                    <iframe className = "videoYoutube" src="https://www.youtube.com/embed/KHhHG1mfeZM"></iframe>
+                </div>
             </div>
         
         </div>
