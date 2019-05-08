@@ -9,16 +9,6 @@
     }
     #page1 {
         position: relative;
-        .blockImg {
-            width: 100vw;
-            height: 100vh;
-            margin:auto;
-            background-image: url('../../../assets/back.jpg');
-            background-repeat: repeat;
-            background-size: contain;
-            opacity: 0.02;
-            z-index: 1;
-        }
         .logo {
             position: absolute;
             top: 0;
@@ -26,8 +16,9 @@
             right: 0;
             bottom: 0;
             margin: auto;
-            width: 60em;
-            height: 60em;
+            width: 50em;
+            height: 50em;
+            top: 3em;
             background-image: url('../../../assets/logo.png');
             background-size: contain;
             background-repeat: no-repeat;

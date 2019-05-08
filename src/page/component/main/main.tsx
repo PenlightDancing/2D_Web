@@ -2,7 +2,7 @@ import React, { Component, useState, useEffect} from 'react'
 
 import $ from "jquery";
 
-
+import { TopBar } from '../topBar/topBar'
 import { Link } from 'react-router-dom'
 
 import './main.scss'
@@ -11,8 +11,9 @@ export const Main = () => {
     useEffect (()=>{
 
     })
-    return (  
+    return (
         <div className = "mainPage">
+            <TopBar/>
             <div id = "page1">
                 <div className = "logo"></div>
             </div>
