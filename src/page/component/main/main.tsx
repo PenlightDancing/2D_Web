@@ -157,6 +157,7 @@ const Page4 = () => {
                         <li>[공지] 뉴스 페이지!</li>
                         <li>[공지] 뉴스 페이지!</li>
                         <li>[공지] 뉴스 페이지!</li>
+                        <div className = "dump"></div>
                     </ul>
                     <hr className = "ulLine"/>
                 </div>
