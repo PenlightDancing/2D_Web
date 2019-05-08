@@ -49,6 +49,19 @@
                 background-size: contain;
                 background-repeat: no-repeat;
             }
+            .downIcon {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                left: 3.9em;
+                top: 0.35em;
+                width: .8em;
+                height: .8em;
+                background-image: url('../../../assets/drop-down-arrow.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
         }
     }
 }

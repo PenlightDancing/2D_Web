@@ -16,6 +16,7 @@ export const TopBar = () => {
                     <div className = "langugeIcon">
                         <div className = "icon"></div>
                         <p className = "text">KR</p>
+                        <div className = "downIcon"></div>
                     </div>
                 </li>
            </ul>
