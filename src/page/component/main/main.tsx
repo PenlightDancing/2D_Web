@@ -14,7 +14,6 @@ export const Main = () => {
     return (  
         <div className = "mainPage">
             <div id = "page1">
-                <div className = "blockImg"></div>
                 <div className = "logo"></div>
             </div>
             <div id = "page2">p2</div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 import { BrowserRouter as Router, Route} from "react-router-dom";
 
-import { Main, LoginPage } from '../page'
+import { Main } from '../page'
 
 const App: React.FC = () => {
   return (
@@ -10,7 +10,6 @@ const App: React.FC = () => {
       <Router>
         <div>
           <Route exact path = '/' component = { Main }/>
-          <Route exact path = '/login' component = { LoginPage}/>
         </div>
       </Router>
     </div>
