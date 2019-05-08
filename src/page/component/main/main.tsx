@@ -19,7 +19,7 @@ export const Main = () => {
             </div>
             <div id = "divpage2">
                 <div id = "page2"></div>
-                game
+                <Page2/>
             </div>
             <div id = "divpage3">
                 <div id = "page3"></div>
@@ -69,6 +69,14 @@ const Page1 = () => {
 const Page2 = () => {
     return (
         <div className = "p2">
+            <p className = "title">GAME</p>
+            <hr className = "titleLine"/>
+            <p className = "introduce">Penlight Dancing이 어떤 게임인지 만나보세요.</p>
+            <div className = "sectionZone">
+                <div className = "section s1"></div>
+                <div className = "section s2"></div>
+                <div className = "section s3"></div>
+            </div>
         </div>
     )
 }
