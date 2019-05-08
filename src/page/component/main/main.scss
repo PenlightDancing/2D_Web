@@ -8,20 +8,21 @@
         height: 100vh;
         color:#fff;
     }
-    .p1{    
+    .p1{
         .logosize {
             position: absolute;
             top: 0;
             left: 0;
             right: 0;
             bottom: 0;
+            height: calc(10vh + 20vw);
+            width: calc(15vh + 30vw);
+            top: -10vh;
             margin: auto;
-            height: 50%;
-            width: auto;
             .logo {
                 position: absolute;
                 height: 100%;
-                width: 40%;
+                width: 100%;
                 top: 0;
                 right: 0;
                 left: 0;
