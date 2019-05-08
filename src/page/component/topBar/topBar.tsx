@@ -12,7 +12,12 @@ export const TopBar = () => {
                <a href = "#page4"><li>뉴스</li></a>
                <a href = "#page5"><li>컨택</li></a>
                <a href = "#page6"><li>약관</li></a>
-               <li><div className = "langugeIcon"></div>KR</li>
+               <li>
+                    <div className = "langugeIcon">
+                        <div className = "icon"></div>
+                        <p className = "text">KR</p>
+                    </div>
+                </li>
            </ul>
        </div>
     )
