@@ -19,11 +19,32 @@ export const Main = () => {
             </div>
             <div id = "divpage2">
                 <div id = "page2"></div>
+                game
             </div>
-            <div id = "divpage3">team</div>
-            <div id = "divpage4">news</div>
-            <div id = "divpage5">contact</div>
-            <div id = "divpage6">yackGwan</div>
+            <div id = "divpage3">
+                <div id = "page3"></div>
+                team
+            </div>
+            <div id = "divpage4">
+                <div id = "page4"></div>
+                news
+            </div>
+            <div id = "divpage5">
+                <div id = "page5"></div>
+                contact
+            </div>
+            <div id = "divpage6">
+                <div id = "page6"></div>
+                yackGwan
+            </div>
+        </div>
+    )
+}
+
+const Page1 = () => {
+    return (
+        <div className = "p1">
+
         </div>
     )
 }
