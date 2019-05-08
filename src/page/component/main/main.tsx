@@ -23,15 +23,15 @@ export const Main = () => {
             </div>
             <div id = "divpage3">
                 <div id = "page3"></div>
-                team
+                <Page3/>
             </div>
             <div id = "divpage4">
                 <div id = "page4"></div>
-                news
+                <Page4/>
             </div>
             <div id = "divpage5">
                 <div id = "page5"></div>
-                contact
+                <Page5/>
             </div>
             <div id = "divpage6">
                 <div id = "page6"></div>
@@ -45,9 +45,7 @@ const Page1 = () => {
     return (
         <div className = "p1">
             <div className = "logosize">
-                <div className = "logo">
-
-                </div>
+                <div className = "logo"></div>
             </div>
             <div className = "moreon">
                 <div className = "more">
@@ -83,18 +81,27 @@ const Page2 = () => {
 const Page3 = () => {
     return (
         <div className = "p3">
+            <p className = "title">TEAM. SeChiGoGi</p>
+            <hr className = "titleLine"/>
+            <p className = "introduce">Penlight Dancing를 제작한 팀원입니다.</p>
         </div>
     )
 }
 const Page4 = () => {
     return (
         <div className = "p4">
+            <p className = "title">NEWS</p>
+            <hr className = "titleLine"/>
+            <p className = "introduce">누구보다 빠르게 Penlight Dancing의 새소식을 접해보세요.</p>
         </div>
     )
 }
 const Page5 = () => {
     return (
         <div className = "p5">
+            <p className = "title">CONTACT</p>
+            <hr className = "titleLine"/>
+            <p className = "introduce">Penlight Dancing</p>
         </div>
     )
 }
