@@ -15,7 +15,7 @@ export const Main = () => {
         <div className = "mainPage">
             <TopBar/>
             <div id = "divpage1">
-                <div className = "logo"></div>
+                <Page1/>
             </div>
             <div id = "divpage2">
                 <div id = "page2"></div>
@@ -44,7 +44,37 @@ export const Main = () => {
 const Page1 = () => {
     return (
         <div className = "p1">
-
+            <div className = "logo"></div>
+        </div>
+    )
+}
+const Page2 = () => {
+    return (
+        <div className = "p2">
+        </div>
+    )
+}
+const Page3 = () => {
+    return (
+        <div className = "p3">
+        </div>
+    )
+}
+const Page4 = () => {
+    return (
+        <div className = "p4">
+        </div>
+    )
+}
+const Page5 = () => {
+    return (
+        <div className = "p5">
+        </div>
+    )
+}
+const Page6 = () => {
+    return (
+        <div className = "p6">
         </div>
     )
 }

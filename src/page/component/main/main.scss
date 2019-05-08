@@ -3,12 +3,12 @@
     height: 600vh;
     background-color: #1d1d1d;
     #divpage1, #divpage2, #divpage3, #divpage4, #divpage5, #divpage6 {
+        position: relative;
         width: 100vw;
         height: 100vh;
         color:#fff;
     }
-    #divpage1 {
-        position: relative;
+    .p1{    
         .logo {
             position: absolute;
             top: 0;
