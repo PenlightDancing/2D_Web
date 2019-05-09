@@ -79,6 +79,34 @@ const Page2 = () => {
     )
 }
 const Page3 = () => {
+    function showProfile(num: number) {
+        switch(num) {
+            case 1:
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+            case 5:
+                break;
+        }
+    }
+    function delProfile(num: number) {
+        switch(num) {
+            case 1:
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+            case 5:
+                break;
+        }
+    }
     return (
         <div className = "p3">
             <p className = "title">TEAM. SeChiGoGi</p>
@@ -87,31 +115,46 @@ const Page3 = () => {
             <div className = "teamMate">
                 <div className = "n1 line1">
                     <p className = "name">박태욱</p>
-                    <div className = "profile"></div>
+                    <div className = "profile" 
+                        onMouseOver = {()=>{ showProfile(1)}}
+                        onMouseLeave = {()=>{ delProfile(1)}}
+                        ></div>
                     <p className = "job"></p>
                     <p className = "ability"></p>
                 </div>
                 <div className = "n2 line2">
                     <p className = "name">한규언</p>
-                    <div className = "profile"></div>
+                    <div className = "profile" 
+                        onMouseOver = {()=>{ showProfile(2)}}
+                        onMouseLeave = {()=>{ delProfile(2)}}
+                        ></div>
                     <p className = "job"></p>
                     <p className = "ability"></p>
                 </div>
                 <div className = "n3 line1">
                     <p className = "name">유승지</p>
-                    <div className = "profile"></div>
+                    <div className = "profile" 
+                        onMouseOver = {()=>{ showProfile(3)}}
+                        onMouseLeave = {()=>{ delProfile(3)}}
+                        ></div>
                     <p className = "job"></p>
                     <p className = "ability"></p>
                 </div>
                 <div className = "n4 line2">
                     <p className = "name">정창원</p>
-                    <div className = "profile"></div>
+                    <div className = "profile" 
+                        onMouseOver = {()=>{ showProfile(4)}}
+                        onMouseLeave = {()=>{ delProfile(4)}}
+                        ></div>
                     <p className = "job"></p>
                     <p className = "ability"></p>
                 </div>
                 <div className = "n5 line1">
                     <p className = "name">이호준</p>
-                    <div className = "profile"></div>
+                    <div className = "profile" 
+                        onMouseOver = {(e)=>{ showProfile(5)}}
+                        onMouseLeave = {()=>{ delProfile(5)}}
+                        ></div>
                     <p className = "job"></p>
                     <p className = "ability"></p>
                 </div>

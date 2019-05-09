@@ -11,7 +11,7 @@ export const TopBar = () => {
             if(!$(e.target).hasClass('langugeMenu') && !$(e.target).hasClass('Eng') && !$(e.target).hasClass('Kor')) {
                 setMenu('none')
             }
-        })
+        })  
     })
     return (
        <div className = "topBar">
