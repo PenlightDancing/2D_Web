@@ -71,9 +71,15 @@ const Page2 = () => {
             <hr className = "titleLine"/>
             <p className = "introduce">Penlight Dancing이 어떤 게임인지 만나보세요.</p>
             <div className = "sectionZone">
-                <div className = "section s1"></div>
-                <div className = "section s2"></div>
-                <div className = "section s3"></div>
+                <div className = "section s1">
+                    <div className = "img"></div>
+                </div>
+                <div className = "section s2">
+                    <div className = "img"></div>
+                </div>
+                <div className = "section s3">
+                    <div className = "img"></div>
+                </div>
             </div>
         </div>
     )

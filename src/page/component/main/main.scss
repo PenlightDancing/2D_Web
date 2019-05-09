@@ -130,10 +130,40 @@
             .section {
                 width: 31%;
                 height: 100%;
-                background-color: #e2e2e2;
+                .img {
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
             }
             .s1, .s2 {
                 margin-right: 3.5%;
+            }
+            .s1 {
+                .img{
+                    background-image: url('../../../assets/KakaoTalk_20190509_093138298.png');
+                    height: 60%;
+                    width: 70%;
+                    margin: auto;
+                    margin-top: 5%;
+                }
+            }
+            .s2 {
+                .img{
+                    background-image: url('../../../assets/KakaoTalk_20190509_093138298.png');
+                    height: 60%;
+                    width: 70%;
+                    margin: auto;
+                    margin-top: 5%;
+                }
+            }
+            .s3 {
+                .img{
+                    background-image: url('../../../assets/gasdasd.png');
+                    height: 45%;
+                    width: 60%;
+                    margin: auto;
+                    margin-top: 11%;
+                }
             }
         }
     }
