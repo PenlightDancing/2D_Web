@@ -116,11 +116,12 @@ const Page3 = () => {
                 <div className = "n1 line1">
                     <p className = "name">박태욱</p>
                     <div className = "profile" 
-                        onMouseOver = {()=>{ showProfile(1)}}
-                        onMouseLeave = {()=>{ delProfile(1)}}
-                        ></div>
+                        onMouseOver = {()=>{ console.log('1'); showProfile(1)}}
+                        onMouseLeave = {()=>{ delProfile(1)}}>
+                    </div>
                     <p className = "job"></p>
                     <p className = "ability"></p>
+                    <div className = "zoom"></div>
                 </div>
                 <div className = "n2 line2">
                     <p className = "name">한규언</p>
