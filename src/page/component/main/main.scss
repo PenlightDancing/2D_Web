@@ -126,13 +126,23 @@
             width: 85%;
             height: 60%;
             margin: auto;
-            margin-top: 2%;
+            margin-top: -1%;
             .section {
                 width: 31%;
                 height: 100%;
                 .img {
                     background-repeat: no-repeat;
                     background-size: contain;
+                }
+                .title {
+                    font-size: 1.8em;
+                    text-align: center;
+                }
+                .subTitle {
+                    margin-top: 7%;
+                    font-size: 1.2em;
+                    text-align: center;
+                    line-height: 2em;
                 }
             }
             .s1, .s2 {
@@ -141,28 +151,37 @@
             .s1 {
                 .img{
                     background-image: url('../../../assets/KakaoTalk_20190509_093138298.png');
-                    height: 60%;
-                    width: 70%;
+                    height: 65%;
+                    width: 65%;
                     margin: auto;
-                    margin-top: 5%;
+                    margin-top: 8%;
+                }
+                .title {
+                    margin-top: -10%;
                 }
             }
             .s2 {
                 .img{
-                    background-image: url('../../../assets/a09f42b2-5435-447c-9efb-1a637bead0cb.png');
-                    height: 35%;
-                    width: 35%;
+                    background-image: url('../../../assets/stick.png');
+                    height: 43%;
+                    width: 43%;
                     margin: auto;
-                    margin-top: 18%;
+                    margin-top: 20%;
+                }
+                .title {
+                    margin-top : 3%;
                 }
             }
             .s3 {
                 .img{
                     background-image: url('../../../assets/gasdasd.png');
-                    height: 45%;
-                    width: 60%;
+                    height: 50%;
+                    width: 50%;
                     margin: auto;
-                    margin-top: 9%;
+                    margin-top: 12%;
+                }
+                .title {
+                    margin-top : 3%;
                 }
             }
         }
