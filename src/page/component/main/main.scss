@@ -275,6 +275,14 @@
                     overflow-y: scroll;
                     margin: auto;
                     li {
+                        background: #55ffaa;
+                        background: -webkit-linear-gradient(left, #ffffcc, #baf7ea);
+                        background:    -moz-linear-gradient(right, #ffffcc, #baf7ea);
+                        background:      -o-linear-gradient(right, #ffffcc, #baf7ea);
+                        background:         linear-gradient(to right, #ffffcc, #baf7ea);
+                        -webkit-background-clip: text;
+                                background-clip: text;
+                        color: transparent;
                         margin-top: 2em;
                         text-align: center;
                         font-size: 1.2em;

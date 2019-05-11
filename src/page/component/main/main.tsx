@@ -98,31 +98,31 @@ const Page3 = () => {
             <p className = "introduce gradText">Penlight Dancing를 제작한 팀원입니다.</p>
             <div className = "teamMate">
                 <div className = "n1 line1">
-                    <p className = "name">박태욱</p>
+                    <p className = "name gradText">박태욱</p>
                     <div className = "profile"></div>
                     <p className = "job"></p>
                     <p className = "ability"></p>
                 </div>
                 <div className = "n2 line2">
-                    <p className = "name">한규언</p>
+                    <p className = "name gradText">한규언</p>
                     <div className = "profile"></div>
-                    <p className = "job"></p>
+                    <p className = "job gradText"></p>
                     <p className = "ability"></p>
                 </div>
                 <div className = "n3 line1">
-                    <p className = "name">유승지</p>
+                    <p className = "name gradText">유승지</p>
                     <div className = "profile"></div>
                     <p className = "job"></p>
                     <p className = "ability"></p>
                 </div>
                 <div className = "n4 line2">
-                    <p className = "name">정창원</p>
+                    <p className = "name gradText">정창원</p>
                     <div className = "profile"></div>
                     <p className = "job"></p>
                     <p className = "ability"></p>
                 </div>
                 <div className = "n5 line1">
-                    <p className = "name">이호준</p>
+                    <p className = "name gradText">이호준</p>
                     <div className = "profile"></div>
                     <p className = "job"></p>
                     <p className = "ability"></p>
@@ -134,12 +134,12 @@ const Page3 = () => {
 const Page4 = () => {
     return (
         <div className = "p4">
-            <p className = "title">NEWS</p>
-            <hr className = "titleLine"/>
-            <p className = "introduce">누구보다 빠르게 Penlight Dancing의 새소식을 접해보세요.</p>
+            <p className = "title gradText">NEWS</p>
+            <hr className = "titleLine lineGrad"/>
+            <p className = "introduce gradText">누구보다 빠르게 Penlight Dancing의 새소식을 접해보세요.</p>
             <div className = "content">
                 <div className = "newsList">
-                    <hr className = "ulLine"/>
+                    <hr className = "ulLine lineGrad"/>
                     <ul className = "list">
                         <li>[공지] 뉴스 페이지!</li>
                         <li>[공지] 뉴스 페이지!</li>
@@ -171,7 +171,7 @@ const Page4 = () => {
                         <li>[공지] 뉴스 페이지!</li>
                         <div className = "dump"></div>
                     </ul>
-                    <hr className = "ulLine"/>
+                    <hr className = "ulLine lineGrad"/>
                 </div>
                 <div className = "video">
                     <iframe className = "videoYoutube" src="https://www.youtube.com/embed/KHhHG1mfeZM"></iframe>
@@ -184,9 +184,9 @@ const Page4 = () => {
 const Page5 = () => {
     return (
         <div className = "p5">
-            <p className = "title">CONTACT</p>
-            <hr className = "titleLine"/>
-            <p className = "introduce">Penlight Dancing</p>
+            <p className = "title gradText">CONTACT</p>
+            <hr className = "titleLine lineGrad"/>
+            <p className = "introduce gradText">Penlight Dancing</p>
         </div>
     )
 }
