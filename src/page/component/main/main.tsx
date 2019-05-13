@@ -56,7 +56,7 @@ const Page1 = () => {
                 <div className = "icons">
                     <div className = "inicons steam"></div>
                     <div className = "backwhite"></div>
-                    <div className = "inicons youtube"></div>
+                    <a href = "https://www.youtube.com/channel/UCCnf0hcshO5v_NYk8IZ9vJw?view_as=subscriber"><div className = "inicons youtube"></div></a>
                     <a href = "https://www.facebook.com/PenlightDancing/"><div className = "inicons facebook"></div></a>
                 </div>
             </div>
