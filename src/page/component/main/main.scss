@@ -136,13 +136,17 @@
             width: 85%;
             height: 60%;
             margin: auto;
-            margin-top: 2%;
+            margin-top: 0%;
             .section {
+                position: relative;
                 width: 31%;
                 height: 100%;
                 .img {
                     background-repeat: no-repeat;
                     background-size: contain;
+                    position: absolute;
+                    left: 0;
+                    right: 0;
                 }
                 .title {
                     font-size: 1.8em;
@@ -158,6 +162,11 @@
             .s1, .s2 {
                 margin-right: 3.5%;
             }
+            .sectionIntro {
+                width: 100%;
+                position: absolute;
+                top: calc(12vh + 12vw);
+            }
             .s1 {
                 .img{
                     background-image: url('../../../assets/KakaoTalk_20190509_093138298.png');
@@ -165,9 +174,6 @@
                     width: 65%;
                     margin: auto;
                     margin-top: 8%;
-                }
-                .title {
-                    margin-top: -10%;
                 }
             }
             .s2 {
@@ -178,9 +184,6 @@
                     margin: auto;
                     margin-top: 20%;
                 }
-                .title {
-                    margin-top : 3%;
-                }
             }
             .s3 {
                 .img{
@@ -189,9 +192,6 @@
                     width: 50%;
                     margin: auto;
                     margin-top: 12%;
-                }
-                .title {
-                    margin-top : 3%;
                 }
             }
         }

@@ -70,18 +70,24 @@ const Page2 = () => {
             <div className = "sectionZone">
                 <div className = "section s1">
                     <div className = "img"></div>
-                    <p className = "title gradText">VR 세계에서의 새로운 경험</p>
-                    <p className = "subTitle gradText">여러분은 Penlight Dancing의<br/>VR 세계 안에서 마음껏 몸을 움직이며<br/>플레이 할 수 있습니다.</p>
+                    <div className = "sectionIntro">
+                        <p className = "title gradText">VR 세계에서의 새로운 경험</p>
+                        <p className = "subTitle gradText">여러분은 Penlight Dancing의<br/>VR 세계 안에서 마음껏 몸을 움직이며<br/>플레이 할 수 있습니다.</p>
+                    </div>
                 </div>
                 <div className = "section s2">
                     <div className = "img"></div>
-                    <p className = "title gradText">펜라이트를 활용한 액션</p>
-                    <p className = "subTitle gradText">펜라이트를 이용해 노트를 베고, 찌르고,<br/>팔을 크게 휘두르세요.<br/>박자가 정확할수록 높은 점수를 얻을겁니다.</p>
+                    <div className = "sectionIntro">
+                        <p className = "title gradText">펜라이트를 활용한 액션</p>
+                        <p className = "subTitle gradText">펜라이트를 이용해 노트를 베고, 찌르고,<br/>팔을 크게 휘두르세요.<br/>박자가 정확할수록 높은 점수를 얻을겁니다.</p>
+                    </div>
                 </div>
                 <div className = "section s3">
                     <div className = "img"></div>
-                    <p className = "title gradText">전세계 사람들과 플레이</p>
-                    <p className = "subTitle gradText">혼자서만 플레이하는 것이 아닌,<br/>전세계 사람들과 함께<br/>Penlight Dancing을 플레이하세요!</p>
+                    <div className = "sectionIntro">
+                        <p className = "title gradText">전세계 사람들과 플레이</p>
+                        <p className = "subTitle gradText">혼자서만 플레이하는 것이 아닌,<br/>전세계 사람들과 함께<br/>Penlight Dancing을 플레이하세요!</p>
+                    </div>
                 </div>
             </div>
         </div>
