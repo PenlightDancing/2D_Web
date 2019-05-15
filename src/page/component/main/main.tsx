@@ -8,9 +8,6 @@ import { Link } from 'react-router-dom'
 import './main.scss'
 export const Main = () => {
     const [page = 1, setPage] = useState()
-    useEffect (()=>{
-
-    })
     return (
         <div className = "mainPage">
             <TopBar/>
