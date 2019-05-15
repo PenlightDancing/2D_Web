@@ -187,6 +187,33 @@
             }
         }
     }
+    .p3 {
+        .teamMate {
+            padding: 4vw;
+            .profile {
+                position: absolute;
+                width: 20vw;
+                height: 20vw;
+                border-radius: 50%;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .name {
+                position: absolute;
+            }
+            .n1, .n2, .n3, .n4, .n5 {
+                width: 92vw;
+                height: 20vw;
+                position: relative;
+                margin-bottom: 1vw;
+            }
+            .n1 {
+                .profile{
+                    background-image: url('../../../assets/profile/c11.jpg')
+                }
+            }
+        }
+    }
     .title {
         text-align: center;
         font-size: 5vw;
