@@ -1,6 +1,48 @@
 .mobile {
     width: 100vw;
-    height: calc( 600vh - 5em );
+    height: calc( 600vh - 20em );
     background-color: #1d1d1d;
-    
+    .dump1 {
+        width: 100vw;
+        height: 4em;
+        display: block;
+    }
+    #page2, #page3, #page4, #page5, #page6 {
+        position: absolute;
+        width: 1em;
+        height: 1em;
+        top: -5em;
+    }
+    #divpage1, #divpage2, #divpage3, #divpage4, #divpage5, #divpage6 {
+        position: relative;
+        width: 100vw;
+        height: calc(100vh - 4em);
+        color:#fff;
+    }
+    .p1 {
+        position: relative;
+        .logosize {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 20vw;
+            width: 80vw;
+            height: 37vw;
+            margin: auto;
+            .logo {
+                width: 100%;
+                height: 100%;
+                background-image: url('../../../assets/logofin.png');
+                background-repeat: no-repeat;
+                background-size: contain;        
+            }
+        }
+        .moreon {
+            position: absolute;
+            width: 60vw;
+            height: 15vw;
+            background-color: #fff;
+            
+        }
+    }
 }

@@ -10,7 +10,7 @@ export const Main = () => {
     const [page = 1, setPage] = useState()
     return (
         <div className = "mainPage">
-            <TopBar/>
+            <TopBar/>            
             <div id = "divpage1">
                 <Page1/>
             </div>

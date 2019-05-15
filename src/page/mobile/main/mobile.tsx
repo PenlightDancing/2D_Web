@@ -7,6 +7,7 @@ export const Mobile = () => {
     return (
         <div className = "mobile">
             <TopBar/>
+            <div className = "dump1"></div>
             <div id = "divpage1">
                 <Page1/>
             </div>
