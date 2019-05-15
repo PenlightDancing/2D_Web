@@ -32,7 +32,7 @@ export const Main = () => {
             </div>
             <div id = "divpage6">
                 <div id = "page6"></div>
-                yackGwan
+                <Page6/>
             </div>
         </div>
     )
@@ -196,6 +196,9 @@ const Page5 = () => {
 const Page6 = () => {
     return (
         <div className = "p6">
+            <p className = "title gradText">TERMS</p>
+            <hr className = "titleLine lineGrad"/>
+            <p className = "introduce gradText">Penlight Dancing의 약관입니다.</p>
         </div>
     )
 }
