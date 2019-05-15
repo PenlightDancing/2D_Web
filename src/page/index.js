@@ -1,1 +1,3 @@
-export { Main } from '../page/component/main/main'
+export { Main } from './component/main/main'
+
+export { Mobile } from './mobile/main/mobile'

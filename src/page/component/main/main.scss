@@ -6,7 +6,7 @@
     ::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment {
     width:16px;height:16px;background:#1d1d1d;}
     width: 100vw;
-    height: 600vh;
+    height: calc(600vh - 5em);
     background-color: #1d1d1d;
     .gradText {
         background: #55ffaa;
@@ -23,6 +23,9 @@
         width: 100vw;
         height: 100vh;
         color:#fff;
+    }
+    #divpage6 {
+        height: calc(100vh - 5em);
     }
     .p1{
         .logosize {
