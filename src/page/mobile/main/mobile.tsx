@@ -138,6 +138,9 @@ const Page4 = () => {
             <hr className = "titleLine lineGrad"/>
             <p className = "introduce gradText">누구보다 빠르게 Penlight Dancing의 새소식을 접해보세요.</p>
             <div className = "content">
+                <div className = "video">
+                    <iframe className = "videoYoutube" src="https://www.youtube.com/embed/KHhHG1mfeZM"></iframe>
+                </div>
                 <div className = "newsList">
                     <hr className = "ulLine lineGrad"/>
                     <ul className = "list">
@@ -172,9 +175,6 @@ const Page4 = () => {
                         <div className = "dump"></div>
                     </ul>
                     <hr className = "ulLine lineGrad"/>
-                </div>
-                <div className = "video">
-                    <iframe className = "videoYoutube" src="https://www.youtube.com/embed/KHhHG1mfeZM"></iframe>
                 </div>
             </div>
         
