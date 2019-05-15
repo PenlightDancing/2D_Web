@@ -132,6 +132,60 @@
             }
         }
     }
+    .p2 {
+        .sectionZone {
+            padding: 7vw;
+            .section {
+                width: 86vw;
+                height: 30vw;
+                display: flex;
+                margin-bottom: 5%;
+                position: relative;
+                .img {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    margin:auto;
+                    width: 20vw;
+                    height: 20vw;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+                .sectionIntro {
+                    position: absolute;
+                    width: 63vw;
+                    height: 22vw;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto;
+                    .title {
+                        font-size: 4vw;
+                        text-align: center;
+                    }
+                    .subTitle {
+                        font-size: 3.5vw;
+                        text-align: center;
+                    }
+                }
+            }
+            .s1 {
+                .img {
+                    background-image: url('../../../assets/KakaoTalk_20190509_093138298.png');
+                }
+            }
+            .s2 {
+                .img {
+                    background-image: url('../../../assets/stick.png');
+                }
+            }
+            .s3 {
+                .img {
+                    background-image: url('../../../assets/gasdasd.png');
+                }
+            }
+        }
+    }
     .title {
         text-align: center;
         font-size: 5vw;
