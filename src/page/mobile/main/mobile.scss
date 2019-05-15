@@ -190,26 +190,57 @@
     .p3 {
         .teamMate {
             padding: 4vw;
+            margin-top: 2em;
             .profile {
-                position: absolute;
-                width: 20vw;
-                height: 20vw;
+                position: relative;
+                width: 30vw;
+                height: 30vw;
                 border-radius: 50%;
                 background-size: cover;
                 background-repeat: no-repeat;
             }
             .name {
-                position: absolute;
+                text-align: center;
+                padding-top: 1.2vw;
+                font-size: 3.8vw;
             }
             .n1, .n2, .n3, .n4, .n5 {
-                width: 92vw;
-                height: 20vw;
-                position: relative;
+                width: 30vw;
+                height: 50vw;
+                position: absolute;
                 margin-bottom: 1vw;
             }
             .n1 {
                 .profile{
+                    background-image: url('../../../assets/profile/c4.jpg')
+                }
+            }
+            .n2 {
+                right: 4vw;
+                .profile{
+                    background-image: url('../../../assets/profile/c2.jpg')
+                }
+            }
+            .n3 {
+                left: 0;
+                right: 0;
+                margin: auto;
+                top: calc(39vw + 6em);
+                .profile{
+                    background-image: url('../../../assets/profile/c5.jpg')
+                }
+            }
+            .n4 {
+                right: 4vw;
+                top: calc(65vw + 8em);
+                .profile{
                     background-image: url('../../../assets/profile/c11.jpg')
+                }
+            }
+            .n5 {
+                top: calc(65vw + 8em);
+                .profile{
+                    background-image: url('../../../assets/profile/c3.jpg')
                 }
             }
         }

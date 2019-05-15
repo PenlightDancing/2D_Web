@@ -98,32 +98,32 @@ const Page3 = () => {
             <p className = "introduce gradText">Penlight Dancing를 제작한 팀원입니다.</p>
             <div className = "teamMate">
                 <div className = "n1 line1">
-                    <p className = "name gradText">박태욱</p>
                     <div className = "profile"></div>
+                    <p className = "name gradText">박태욱</p>                    
                     <p className = "job"></p>
                     <p className = "ability"></p>
                 </div>
                 <div className = "n2 line2">
-                    <p className = "name gradText">한규언</p>
                     <div className = "profile"></div>
+                    <p className = "name gradText">한규언</p>
                     <p className = "job gradText"></p>
                     <p className = "ability"></p>
                 </div>
                 <div className = "n3 line1">
-                    <p className = "name gradText">유승지</p>
                     <div className = "profile"></div>
+                    <p className = "name gradText">유승지</p>
                     <p className = "job"></p>
                     <p className = "ability"></p>
                 </div>
                 <div className = "n4 line2">
-                    <p className = "name gradText">정창원</p>
                     <div className = "profile"></div>
+                    <p className = "name gradText">정창원</p>
                     <p className = "job"></p>
                     <p className = "ability"></p>
                 </div>
                 <div className = "n5 line1">
-                    <p className = "name gradText">이호준</p>
                     <div className = "profile"></div>
+                    <p className = "name gradText">이호준</p>
                     <p className = "job"></p>
                     <p className = "ability"></p>
                 </div>
