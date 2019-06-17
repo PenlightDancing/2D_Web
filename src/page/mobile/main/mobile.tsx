@@ -93,7 +93,7 @@ const Page2 = () => {
 const Page3 = () => {
     return (
         <div className = "p3">
-            <p className = "title gradText">TEAM. SeChiGoGi</p>
+            <p className = "title gradText">TEAM. NUGUL Studio</p>
             <hr className = "titleLine lineGrad"/>
             <p className = "introduce gradText">Penlight Dancing를 제작한 팀원입니다.</p>
             <div className = "teamMate">
@@ -144,7 +144,7 @@ const Page4 = () => {
                 <div className = "newsList">
                     <hr className = "ulLine lineGrad"/>
                     <ul className = "list">
-                        <li>[공지] 뉴스 페이지!</li>
+                        {/* <li>[공지] 뉴스 페이지!</li>
                         <li>[공지] 뉴스 페이지!</li>
                         <li>[공지] 뉴스 페이지!</li>
                         <li>[공지] 뉴스 페이지!</li>
@@ -171,7 +171,7 @@ const Page4 = () => {
                         <li>[공지] 뉴스 페이지!</li>
                         <li>[공지] 뉴스 페이지!</li>
                         <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
+                        <li>[공지] 뉴스 페이지!</li> */}
                         <div className = "dump"></div>
                     </ul>
                     <hr className = "ulLine lineGrad"/>
