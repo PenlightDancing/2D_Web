@@ -40,7 +40,7 @@
         justify-content: center;
     }
     .p1 {
-        margin-top: -4em;
+        margin-top: calc( -4em - 8vw);
         width: 80vw;
         height: 65vw;
         position: relative;
