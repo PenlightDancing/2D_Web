@@ -2,7 +2,7 @@ import React, { Component, useState, useEffect} from 'react'
 
 
 import { TopBar } from '../topBar/topBar'
-
+import img from '../../../assets/miribogi.png'
 import './main.scss'
 export const Main = () => {
     const [page = 1, setPage] = useState()
@@ -40,7 +40,8 @@ const Page1 = () => {
     return (
         <div className = "p1">
             <div className = "logosize">
-                <div className = "logo"></div>
+                {/* <div className = "logo"></div> */}
+                <img src = {img}/>
             </div>
             <div className = "moreon">
                 <div className = "more">
