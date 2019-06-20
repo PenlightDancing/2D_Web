@@ -754,7 +754,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1347,5 +1348,19 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#1e1e1e",
-    "pickerWorkingDir": "/Users/snlcom/Desktop"
+    "pickerWorkingDir": "/Users/snlcom/Desktop",
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///Users/snlcom/Desktop/penlightDancing",
+            "backupPath": "/Users/snlcom/Desktop/penlightDancing/2D_Web/~/.vscode-root/Backups/9ba4a9b1d93914b9ccc977f1f42443a0",
+            "uiState": {
+                "mode": 1,
+                "x": 0,
+                "y": 23,
+                "width": 1680,
+                "height": 963
+            }
+        },
+        "openedWindows": []
+    }
 }
