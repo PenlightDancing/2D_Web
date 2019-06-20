@@ -40,8 +40,8 @@ const Page1 = () => {
     return (
         <div className = "p1">
             <div className = "logosize">
-                {/* <div className = "logo"></div> */}
-                <img src = {img}/>
+                <div className = "logo"></div>
+                <img src = {img} style = {{display: 'none'}}/>
             </div>
             <div className = "moreon">
                 <div className = "more">
