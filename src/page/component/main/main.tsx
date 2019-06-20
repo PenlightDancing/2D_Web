@@ -41,7 +41,7 @@ const Page1 = () => {
         <div className = "p1">
             <div className = "logosize">
                 <div className = "logo"></div>
-                <img src = {img} style = {{display: 'none'}}/>
+                {/* <img src = {img} style = {{display: 'none'}}/> */}
             </div>
             <div className = "moreon">
                 <div className = "more">
