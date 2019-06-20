@@ -16,12 +16,8 @@ const App: React.FC = () => {
     }
   }    
   useEffect (()=>{
-      if (isMobile())
-      {
-        setBool( true )
-      }
-      else
-        setBool ( false )
+      if (isMobile()) setBool( true )
+      else setBool ( false )
   })
   return (
     <div className="App">
