@@ -143,40 +143,15 @@ const Page4 = () => {
                 <div className = "newsList">
                     <hr className = "ulLine lineGrad"/>
                     <ul className = "list">
-                        {/* <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이다지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li>
-                        <li>[공지] 뉴스 페이지!</li> */}
+                        <li>PenlightDancing 2019 STAC 본선 통과!</li>
+                        <li>PenlightDancing 프로토타입 영상 업로드</li>
+                        <li>PenlightDancing 2019 STAC 예선 통과!</li>
                         <div className = "dump"></div>
                     </ul>
                     <hr className = "ulLine lineGrad"/>
                 </div>
                 <div className = "video">
-                    <iframe className = "videoYoutube" src="https://www.youtube.com/embed/KHhHG1mfeZM"></iframe>
+                    <iframe className = "videoYoutube" src="https://www.youtube.com/embed/2f9CAhbZEVQ"></iframe>
                 </div>
             </div>
         
@@ -189,6 +164,7 @@ const Page5 = () => {
             <p className = "title gradText">CONTACT</p>
             <hr className = "titleLine lineGrad"/>
             <p className = "introduce gradText">Penlight Dancing</p>
+            <p className = "gradText" style = {{fontSize: '2.5em', textAlign: 'center', marginTop: '23vh'}}>아직 결정된 사항이 없습니다</p>
         </div>
     )
 }
@@ -198,6 +174,7 @@ const Page6 = () => {
             <p className = "title gradText">TERMS</p>
             <hr className = "titleLine lineGrad"/>
             <p className = "introduce gradText">Penlight Dancing의 약관입니다.</p>
+            <p className = "gradText" style = {{fontSize: '2.5em', textAlign: 'center', marginTop: '23vh'}}>출시 준비중 입니다.</p>
         </div>
     )
 }
